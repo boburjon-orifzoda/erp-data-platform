@@ -2,34 +2,47 @@
 
 ## High-Level Architecture
 
-The ERP data platform follows a layered architecture:
+The ERP platform followed a layered enterprise architecture supporting operational workflows, financial controls, reporting, and role-based access management across five manufacturing business divisions.
 
-- Source Layer (ERP modules)
-- Data Storage Layer (Azure SQL Database)
-- ETL Layer (data pipelines)
-- Analytics Layer (reporting and BI)
+## Architecture Layers
 
-## Data Flow
+### 1. Presentation Layer
+Frontend ERP interface used by employees, managers, and executives to access operational modules, dashboards, KPI metrics, and financial reports.
 
-1. Business transactions are generated in ERP modules
-2. Data is stored in normalized tables
-3. ETL pipelines extract and transform data
-4. Processed data is loaded into reporting structures
+### 2. Application Layer
+Backend services processed business workflows, transaction requests, validation rules, and operational logic.
 
-## Scalability Considerations
+### 3. Data & Business Logic Layer
+Core ERP database layer responsible for:
+- Transaction storage and processing
+- Financial workflow logic
+- Access control enforcement
+- Audit logging
+- KPI data structures
+- Reporting calculations
+- Validation and approval logic
 
-- Modular schema design
-- Separation of transactional and analytical workloads
-- Batch processing for large datasets
+### 4. Reporting & Analytics Layer
+Reporting structures and dashboard datasets enabled:
+- Saldo in / saldo out analysis
+- KPI tracking
+- Executive dashboards
+- Department performance reporting
+- Cross-division operational statistics
 
-## Reliability
+## Business Unit Integration
 
-- Data validation during ETL
-- Consistent schema constraints
-- Error handling in pipelines
+The platform centralized data from:
+- Doors & Frames Manufacturing
+- Heating Radiators Manufacturing
+- Sanitary Ware & Plumbing Products
+- Kitchen Furniture Manufacturing
+- Window Manufacturing
 
-## Performance Optimization
+## Architectural Principles
 
-- Indexed tables for query performance
-- Optimized joins and aggregations
-- Efficient ETL scheduling
+- Centralized operational and financial data model
+- Role-based visibility and access segmentation
+- Auditability of critical transactions
+- Modular business logic for scalable ERP workflows
+- Separation of operational processing and reporting layers
