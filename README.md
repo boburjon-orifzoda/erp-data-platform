@@ -4,6 +4,13 @@
 
 This project represents the design of a centralized ERP data platform built for a manufacturing company with five distinct business divisions. The platform unified operational, financial, and reporting data into one system, enabling management to track saldo in, saldo out, dashboards, KPI metrics, and performance statistics across the organization.
 
+## Documentation
+
+* [Architecture Details](./architecture.md)
+* [Business Rules](./business-rules.md)
+* [ERP Workflows](./workflows.md)
+
+
 ## Business Context
 
 This ERP platform was designed for a manufacturing company operating across five distinct business divisions:
