@@ -10,6 +10,10 @@ This project represents the design of a centralized ERP data platform built for 
 * [Business Rules](./business-rules.md)
 * [ERP Workflows](./workflows.md)
 
+* ## Architecture Diagram
+
+![ERP Architecture](./images/erp-architecture-diagram.png)
+
 
 ## Business Context
 
