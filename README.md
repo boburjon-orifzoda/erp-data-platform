@@ -75,21 +75,6 @@ The platform consists of the following logical layers:
 4. **Access & Reporting Layer**
    - Dashboards, KPI views, saldo in / saldo out reporting, and role-based visibility
 
-1. **Source Systems**
-   - Transactional ERP modules (Finance, Inventory, Sales)
-
-2. **Data Storage**
-   - Azure SQL Database
-   - Normalized schema for operational data
-
-3. **ETL Layer**
-   - Data extraction, transformation, and loading
-   - Batch processing pipelines
-
-4. **Analytics Layer**
-   - Reporting-ready datasets
-   - Aggregations for business intelligence
-
 ## Key Components
 
 ### Business Units
@@ -118,13 +103,39 @@ The platform consists of the following logical layers:
 
 ## Technologies Used
 
+### Core Technical Expertise
 - SQL
-- Python
 - Azure SQL Database
-- ERP reporting logic
-- Data modeling
-- Role-based access design
-- Financial reporting workflows
+- PL/SQL Developer
+- Data Modeling
+- Database Normalization
+- Database Architecture
+
+### ERP & Financial Logic
+- Financial Workflow Automation
+- Accounting Logic
+- KPI Management
+- Enterprise Reporting Architecture
+- Operational Control Logic
+
+### Security & Controls
+- Role-Based Access Control (RBAC)
+- Audit Logging
+- Transaction Validation
+- Internal Transfer Controls
+- Multi-Level Approval Workflows
+
+### Reporting & Analytics
+- Power BI
+- KPI Reporting
+- Management Dashboard Design
+
+### Platform / Collaboration Exposure
+- Java / C#
+- ASP.NET / Node.js
+- React / JavaScript / Bootstrap
+- Azure Data Factory / Azure Synapse
+- API Integrations
 
 ## Design Approach
 
@@ -134,5 +145,4 @@ This project focuses on system design, business logic, reporting architecture, a
 
 Due to NDA restrictions, this repository does not include production code. Instead, it focuses on architecture, business logic, data modeling, reporting structure, and system design.
 
-## Note
-Due to NDA restrictions, this repository does not include production code. Instead, it focuses on architecture, data modeling, and system design.
+
