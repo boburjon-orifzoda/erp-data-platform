@@ -12,7 +12,7 @@ This project represents the design of a centralized ERP data platform built for 
 
 * ## Architecture Diagram
 
-![ERP Architecture](./images/erp-architecture-diagram.png)
+[ERP Architecture](./images/erp-architecture-diagram.png)
 
 
 ## Business Context
