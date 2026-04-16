@@ -8,6 +8,7 @@ inventory_service = InventoryService()
 @router.get("/items")
 def get_inventory_items():
     return {
+        "status": "success",
         "message": "Inventory items retrieved",
         "data": inventory_service.get_inventory_items()
     }
