@@ -152,25 +152,27 @@ The platform consists of the following logical layers:
 
 This project focuses on system design, business logic, reporting architecture, and enterprise-grade operational controls. It reflects real-world experience building a centralized ERP platform for a complex manufacturing business with multiple divisions, layered permissions, KPI monitoring, and advanced financial workflows.
 
+
+---
+
 ## Implementation Skeleton
 
-This repository also includes a portfolio-safe backend skeleton to demonstrate how the ERP platform could be structured at the API and service layer.
-
-### Current Backend Structure
-- FastAPI application entry point
-- Procurement API route skeleton
-- Domain model for purchase requests
-- Pydantic request/response schemas
-- Service layer for procurement workflow initialization
-- Basic health check endpoint and test example
-
-### Purpose
-This implementation skeleton is intentionally simplified and does not include proprietary production logic, confidential workflows, or internal company source code. It is provided only to demonstrate architecture style, modular backend structure, and ERP-oriented API design.
+This repository also includes a portfolio-safe backend skeleton to demonstrate how the ERP platform could be structured at the API, service, and domain layers.
 
 ### Included Domain Modules
 - Procurement request initialization
 - Approval workflow processing
 - Inventory item visibility and retrieval
+
+### Current Backend Structure
+- FastAPI application entry point
+- Modular API route structure
+- Domain models and Pydantic schemas
+- Service and repository layers
+- Health check and basic test coverage
+
+### Purpose
+This backend skeleton is intentionally simplified and does not contain proprietary production logic, confidential workflows, or internal company source code. It is included only to demonstrate architecture style, modular backend design, and ERP-oriented system structure in a portfolio-safe format.
 
 
 ## Run Locally
@@ -196,5 +198,6 @@ POST /api/approvals/action
 GET /api/inventory/items
 
 ## Note
+## Note
 
-Due to NDA restrictions, this repository does not include production source code or confidential business logic. Instead, it provides a portfolio-safe representation of the ERP platform through architecture documentation, workflow design, reporting logic, and a simplified backend skeleton demonstrating API and service-layer structure.
+Due to NDA restrictions, this repository does not include production source code or confidential business logic. Instead, it provides a portfolio-safe representation of an ERP data platform through architecture documentation, workflow design, reporting structure, and a simplified backend skeleton demonstrating API, service, and domain-layer organization.
