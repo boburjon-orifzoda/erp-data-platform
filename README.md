@@ -198,6 +198,5 @@ POST /api/approvals/action
 GET /api/inventory/items
 
 ## Note
-## Note
 
 Due to NDA restrictions, this repository does not include production source code or confidential business logic. Instead, it provides a portfolio-safe representation of an ERP data platform through architecture documentation, workflow design, reporting structure, and a simplified backend skeleton demonstrating API, service, and domain-layer organization.
