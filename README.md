@@ -172,6 +172,29 @@ This implementation skeleton is intentionally simplified and does not include pr
 - Approval workflow processing
 - Inventory item visibility and retrieval
 
+
+## Run Locally
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+
+###  Start the API
+
+uvicorn app.main:app --reload
+
+###  Run tests
+
+pytest app/tests -v
+
+###  Example endpoints
+
+GET /health
+GET /api/procurement/requests
+POST /api/procurement/requests
+POST /api/approvals/action
+GET /api/inventory/items
+
 ## Note
 
 Due to NDA restrictions, this repository does not include production source code or confidential business logic. Instead, it provides a portfolio-safe representation of the ERP platform through architecture documentation, workflow design, reporting logic, and a simplified backend skeleton demonstrating API and service-layer structure.
