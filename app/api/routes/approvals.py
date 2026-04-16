@@ -1,11 +1,16 @@
 from fastapi import APIRouter
-from app.schemas.approval import ApprovalActionRequest, ApprovalActionResponse
+from app.schemas.approval import ApprovalActionRequest
 from app.services.approval_service import ApprovalService
 
 router = APIRouter()
 approval_service = ApprovalService()
 
 
-@router.post("/action", response_model=ApprovalActionResponse)
+@router.post("/action")
 def process_approval(payload: ApprovalActionRequest):
-    return approval_service.process_approval(payload)
+    result = approval_service.process_approval(payload)
+    return {
+        "status": "success",
+        "message": "Approval action processed",
+        "data": result
+    }
