@@ -167,6 +167,11 @@ This repository also includes a portfolio-safe backend skeleton to demonstrate h
 ### Purpose
 This implementation skeleton is intentionally simplified and does not include proprietary production logic, confidential workflows, or internal company source code. It is provided only to demonstrate architecture style, modular backend structure, and ERP-oriented API design.
 
+### Included Domain Modules
+- Procurement request initialization
+- Approval workflow processing
+- Inventory item visibility and retrieval
+
 ## Note
 
 Due to NDA restrictions, this repository does not include production source code or confidential business logic. Instead, it provides a portfolio-safe representation of the ERP platform through architecture documentation, workflow design, reporting logic, and a simplified backend skeleton demonstrating API and service-layer structure.
