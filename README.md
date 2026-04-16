@@ -2,7 +2,10 @@
 
 ## Overview
 
-This project represents the design of a centralized ERP data platform built for a manufacturing company with five distinct business divisions. The platform unified operational, financial, and reporting data into one system, enabling management to track saldo in, saldo out, dashboards, KPI metrics, and performance statistics across the organization.
+
+Enterprise-grade ERP data platform designed for a multi-division manufacturing company. This system centralizes financial, operational, and reporting data across five business units, enabling KPI tracking, accounting visibility, and executive-level decision making.
+
+The platform includes architecture design, business workflows, financial controls, and a portfolio-safe backend skeleton demonstrating API, service-layer, and domain-driven structure.
 
 ## Documentation
 
